@@ -53,8 +53,6 @@ public class EmployeeWageUC8Employee {
 			totalWorkingHour += workingHour;
 		}
 		int totalSalary = totalWorkingHour * wagePerHour;
-//		System.out.println(emp.empName + "'s monthly wage : " + totalSalary);
-//		System.out.println(emp.empName + "'s total working hour : " + totalWorkingHour);
 		return totalSalary;
 	}
 }
